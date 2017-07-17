@@ -13,7 +13,7 @@ if(cluster.isMaster) {
     })
 
     cluster.on('listening', (worker) => {
-        console.log('Cluster conectado '+ worker.process.pid);
+        console.log('Cluster %d conectado', worker.process.pid);
     });
 
     cluster.on('exit', worker => {
