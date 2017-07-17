@@ -1,0 +1,26 @@
+{
+  "name": "noderest",
+  "version": "1.0.0",
+  "description": "Projeto intermediario node Rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pagamentos",
+    "api"
+  ],
+  "author": "leandro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.6",
+    "express": "^4.15.3",
+    "express-validator": "^3.2.1",
+    "memcached": "^2.2.2",
+    "morgan": "^1.8.2",
+    "mysql": "^2.13.0",
+    "soap": "^0.19.2",
+    "winston": "^2.3.1"
+  }
+}
